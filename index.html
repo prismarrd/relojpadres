@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Catálogo exclusivo de relojes para hombres por PRISMAR. El regalo perfecto para papá en el Mes de los Padres con descuentos especiales y pago contra entrega.">
+    <title>Especial Mes de los Padres | PRISMARRD</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #09090d;
+            --card-color: #121218;
+            --accent-color: #C9A84C;
+            --accent-light: #e8c97a;
+            --accent-dark: #8B6914;
+            --brand-blue: #1565c0;
+            --brand-blue-light: #42a5f5;
+            --brand-blue-dark: #0d47a1;
+            --text-main: #f3f3f6;
+            --text-soft: #aaaab8;
+            --text-muted: #676778;
+            --whatsapp-green: #25D366;
+            --whatsapp-hover: #20ba5a;
+            --border-color: rgba(201, 168, 76, 0.15);
+            --border-hover: rgba(201, 168, 76, 0.4);
+            --shadow-glow: 0 0 25px rgba(201, 168, 76, 0.15);
+            --shadow-glow-blue: 0 0 25px rgba(66, 165, 245, 0.2);
+            --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --border-radius-lg: 16px;
+            --border-radius-sm: 8px;
+        }
+
+        /* Reset y General */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Scrollbar Personalizado */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--brand-blue-dark);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--brand-blue-light);
+        }
+/* WhatsApp flotante */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--whatsapp-green);
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 14px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            transition: var(--transition-smooth);
+        }
+        
+        .whatsapp-float:hover {
+            background-color: var(--whatsapp-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+        
+        .whatsapp-float svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        /* Navegación */
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 900;
+            background-color: rgba(9, 9, 13, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(66, 165, 245, 0.15);
+            padding: 12px 24px;
+        }
+
+        .navbar-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar-brand {
+            font-size: 1.25rem;
+            font-weight: 900;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .navbar-logo-img {
+            height: 70px;
+            width: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 0 12px rgba(66, 165, 245, 0.6));
+        }
+
+        height: 42px;
+        width: auto;
+        object-fit: contain;
+        filter: drop-shadow(0 0 8px rgba(66, 165, 245, 0.4));
+        }
+
+        .navbar-brand span.blue {
+            color: var(--brand-blue-light);
+        }
+
+        .navbar-brand span.gold {
+            color: var(--accent-color);
+        }
+
+        .navbar-menu {
+            display: flex;
+            gap: 10px;
+        }
+
+        .navbar-link {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-soft);
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 50px;
+            transition: var(--transition-smooth);
+        }
+
+        .navbar-link:hover {
+            color: var(--brand-blue-light);
+            background-color: rgba(66, 165, 245, 0.08);
+        }
+
+        @media (max-width: 670px) {
+            .navbar-menu {
+                display: none;
+            }
+        }
+
+        /* Hero / Banner Principal */
+        .hero {
+            position: relative;
+            padding: 80px 24px 80px;
+            text-align: center;
+            background: radial-gradient(circle at 50% 30%, rgba(66, 165, 245, 0.08) 0%, transparent 60%),
+                linear-gradient(180deg, #07070b 0%, #0d0d14 100%);
+            border-bottom: 1px solid rgba(66, 165, 245, 0.15);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero-brand-presenter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 24px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .hero-brand-logo {
+            height: 140px;
+            width: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 0 25px rgba(66, 165, 245, 0.45));
+        }
+
+        .hero-brand-slogan {
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 4px;
+            color: var(--brand-blue-light);
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+
+        .hero-banner-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background-color: rgba(66, 165, 245, 0.1);
+            border: 1px solid rgba(66, 165, 245, 0.3);
+            color: var(--brand-blue-light);
+            border-radius: 50px;
+            padding: 8px 20px;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+        }
+
+        .hero-title {
+            font-size: clamp(2.2rem, 5vw, 3.8rem);
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+            max-width: 800px;
+        }
+
+        .hero-title span.accent {
+            background: linear-gradient(120deg, var(--brand-blue-light), var(--accent-light), var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.05rem, 2vw, 1.25rem);
+            color: var(--text-soft);
+            max-width: 650px;
+            margin: 0 auto 32px;
+            font-weight: 400;
+        }
+
+        .hero-badges {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .hero-badge {
+            background-color: rgba(37, 211, 102, 0.08);
+            border: 1px solid rgba(37, 211, 102, 0.25);
+            color: #4ade80;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .hero-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-block;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 16px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            border: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--brand-blue), var(--brand-blue-light));
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(66, 165, 245, 0.4);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            border: 2px solid rgba(201, 168, 76, 0.3);
+            color: var(--accent-light);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(201, 168, 76, 0.05);
+            border-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+
+        /* Barra de Características de Confianza */
+        .trustbar {
+            background-color: var(--card-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 24px;
+        }
+
+        .trustbar-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .trustbar-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-soft);
+        }
+
+        .trustbar-icon {
+            font-size: 20px;
+            color: var(--brand-blue-light);
+        }
+
+        /* Sección de Catálogo */
+        .section {
+            padding: 80px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-tag {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--brand-blue-light);
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .section-divider {
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--brand-blue-light), transparent);
+            margin: 0 auto 16px;
+        }
+
+        .section-desc {
+            font-size: 14px;
+            color: var(--text-soft);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Grid de Productos */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+
+        /* Tarjeta de Producto */
+        .product-card {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: var(--transition-smooth);
+            position: relative;
+        }
+
+        .product-card:hover {
+            border-color: rgba(66, 165, 245, 0.4);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-glow-blue);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 1px solid rgba(66, 165, 245, 0.3);
+            color: var(--brand-blue-light);
+            padding: 4px 10px;
+            font-size: 11px;
+            font-weight: 700;
+            border-radius: 50px;
+            z-index: 10;
+        }
+
+        .product-discount-tag {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: #e53935;
+            color: #fff;
+            padding: 4px 10px;
+            font-size: 11px;
+            font-weight: 700;
+            border-radius: 4px;
+            z-index: 10;
+            text-transform: uppercase;
+        }
+
+        .product-image-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            overflow: hidden;
+            background-color: #0b0b0e;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.06);
+        }
+
+        .product-info {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-price-container {
+            display: flex;
+            align-items: baseline;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+
+        .product-price-original {
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            text-decoration: line-through;
+        }
+
+        .product-price {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--accent-color);
+        }
+
+        .product-shipping {
+            font-size: 11px;
+            font-weight: 700;
+            color: #4ade80;
+            background-color: rgba(74, 222, 128, 0.1);
+            padding: 3px 8px;
+            border-radius: 4px;
+            width: fit-content;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .product-qty-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .product-qty-selector {
+            display: flex;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--border-radius-sm);
+            width: fit-content;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .qty-btn {
+            background: none;
+            border: none;
+            color: var(--brand-blue-light);
+            width: 36px;
+            height: 36px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+        }
+
+        .qty-btn:hover {
+            background-color: rgba(66, 165, 245, 0.1);
+        }
+
+        .qty-input {
+            background: none;
+            border: none;
+            border-left: 1px solid rgba(255, 255, 255, 0.08);
+            border-right: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-main);
+            width: 44px;
+            height: 36px;
+            text-align: center;
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .qty-input::-webkit-outer-spin-button,
+        .qty-input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        .product-actions {
+            margin-top: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn-features {
+            background-color: rgba(66, 165, 245, 0.03);
+            border: 1px solid rgba(66, 165, 245, 0.18);
+            color: var(--brand-blue-light);
+            padding: 10px 16px;
+            border-radius: var(--border-radius-sm);
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: var(--transition-smooth);
+        }
+
+        .btn-features:hover {
+            background-color: rgba(66, 165, 245, 0.08);
+            border-color: rgba(66, 165, 245, 0.35);
+        }
+
+        .btn-features .arrow {
+            transition: transform 0.3s ease;
+            font-size: 10px;
+        }
+
+        .btn-features.active .arrow {
+            transform: rotate(180deg);
+        }
+
+        .features-panel {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .features-panel-content {
+            padding: 12px 14px;
+            background-color: rgba(66, 165, 245, 0.01);
+            border-left: 2px solid var(--brand-blue-light);
+            margin-top: 8px;
+            border-radius: 4px;
+        }
+
+        .features-list {
+            list-style: none;
+        }
+
+        .features-list li {
+            font-size: 12px;
+            color: var(--text-soft);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+        }
+
+        .features-list li::before {
+            content: "•";
+            color: var(--brand-blue-light);
+            font-weight: bold;
+        }
+
+        .btn-order {
+            background-color: var(--whatsapp-green);
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: var(--border-radius-sm);
+            font-family: inherit;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: var(--transition-smooth);
+        }
+
+        .btn-order:hover {
+            background-color: var(--whatsapp-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+        }
+
+        .btn-order svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        /* Sección del Combo */
+        .combo-section {
+            background-color: #0b0b10;
+            border-top: 1px solid rgba(66, 165, 245, 0.15);
+            border-bottom: 1px solid rgba(66, 165, 245, 0.15);
+            padding: 80px 24px;
+        }
+
+        .combo-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .combo-card {
+            background-color: var(--card-color);
+            border: 1px solid rgba(66, 165, 245, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-glow-blue);
+        }
+
+        @media (max-width: 600px) {
+            .combo-card {
+                padding: 24px 16px;
+            }
+        }
+
+        .combo-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 600px) {
+            .combo-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+        }
+
+        .combo-field {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .combo-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--brand-blue-light);
+        }
+
+        .combo-select-wrapper {
+            position: relative;
+        }
+
+        .combo-select-wrapper::after {
+            content: "▼";
+            font-size: 10px;
+            color: var(--brand-blue-light);
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+
+        .combo-select {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(66, 165, 245, 0.2);
+            color: var(--text-main);
+            padding: 12px 16px;
+            border-radius: var(--border-radius-sm);
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            appearance: none;
+            -webkit-appearance: none;
+            transition: var(--transition-smooth);
+        }
+
+        .combo-select:focus {
+            outline: none;
+            border-color: var(--brand-blue-light);
+            background-color: rgba(66, 165, 245, 0.05);
+        }
+
+        .combo-select option {
+            background-color: #111116;
+            color: var(--text-main);
+        }
+
+        .combo-qty-wrapper {
+            margin-bottom: 24px;
+        }
+
+        .combo-summary {
+            background-color: rgba(66, 165, 245, 0.05);
+            border: 1px solid rgba(66, 165, 245, 0.15);
+            border-radius: var(--border-radius-sm);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .combo-summary-text h4 {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-soft);
+            margin-bottom: 4px;
+        }
+
+        .combo-summary-text p {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .combo-price-block {
+            text-align: right;
+        }
+
+        .combo-original-price {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-decoration: line-through;
+            margin-bottom: 2px;
+            display: none;
+        }
+
+        .combo-total-value {
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: var(--accent-color);
+        }
+
+        .combo-savings-badge {
+            background-color: rgba(37, 211, 102, 0.08);
+            border: 1px dashed rgba(37, 211, 102, 0.4);
+            color: #4ade80;
+            border-radius: var(--border-radius-sm);
+            padding: 12px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 24px;
+            animation: pulseGlow 2s infinite ease-in-out;
+        }
+
+        .combo-savings-badge strong {
+            font-weight: 800;
+            color: #fff;
+            background-color: var(--whatsapp-green);
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin: 0 4px;
+        }
+
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                border-color: rgba(37, 211, 102, 0.4);
+                box-shadow: 0 0 10px rgba(37, 211, 102, 0.05);
+            }
+
+            50% {
+                border-color: rgba(37, 211, 102, 0.8);
+                box-shadow: 0 0 15px rgba(37, 211, 102, 0.2);
+            }
+        }
+
+        /* Regalos del Combo */
+        .combo-gifts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 500px) {
+            .combo-gifts {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+        }
+
+        .gift-item {
+            background-color: rgba(37, 211, 102, 0.05);
+            border: 1px solid rgba(37, 211, 102, 0.15);
+            border-radius: var(--border-radius-sm);
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .gift-icon {
+            font-size: 24px;
+            line-height: 1;
+        }
+
+        .gift-image {
+            width: 32px;
+            height: 32px;
+            object-fit: contain;
+            border-radius: 4px;
+        }
+
+        .gift-info h5 {
+            font-size: 12px;
+            font-weight: 700;
+            color: #4ade80;
+        }
+
+        .gift-info p {
+            font-size: 10px;
+            color: var(--text-soft);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #060609;
+            border-top: 1px solid rgba(66, 165, 245, 0.15);
+            padding: 48px 24px 30px;
+            text-align: center;
+        }
+
+        .footer-logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .footer-logo-img {
+            height: 64px;
+            width: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 0 12px rgba(66, 165, 245, 0.45));
+        }
+
+        .footer-brand-slogan {
+            font-size: 9px;
+            font-weight: 800;
+            letter-spacing: 3px;
+            color: var(--brand-blue-light);
+            text-transform: uppercase;
+        }
+
+        .footer-brand {
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        .footer-brand span.blue {
+            color: var(--brand-blue-light);
+        }
+
+        .footer-brand span.gold {
+            color: var(--accent-color);
+        }
+
+        .footer-desc {
+            font-size: 13px;
+            color: var(--text-soft);
+            max-width: 500px;
+            margin: 0 auto 24px;
+        }
+
+        /* Redes Sociales */
+        .footer-socials {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-soft);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            transition: var(--transition-smooth);
+        }
+
+        .social-link:hover {
+            color: var(--brand-blue-light);
+            transform: translateY(-2px);
+        }
+
+        .social-icon {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .footer-contact {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--whatsapp-green);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            margin-bottom: 30px;
+            transition: var(--transition-smooth);
+        }
+
+        .footer-contact:hover {
+            opacity: 0.8;
+        }
+
+        .footer-contact svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        .footer-copyright {
+            font-size: 11px;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 24px;
+        }
+
+        /* Animaciones */
+        .fade-in-section {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .fade-in-section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#inicio" class="navbar-brand">
+                <img src="logo/prismar-logo.png" class="navbar-logo-img" alt="PRISMAR Logo"
+                    onerror="this.style.display='none';">
+                <span class="blue">PRISMAR</span><span class="gold">RD</span>
+            </a>
+            <div class="navbar-menu">
+                <a href="#premium" class="navbar-link">Relojes Premium</a>
+                <a href="#uso-diario" class="navbar-link">Uso Diario</a>
+                <a href="#combo" class="navbar-link">Armar Combo</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Banner Principal -->
+    <section class="hero" id="inicio">
+        <div class="hero-brand-presenter">
+            <img src="logo/prismar-logo.png" class="hero-brand-logo" alt="PRISMAR Logo"
+                onerror="this.style.display='none';">
+            <div class="hero-brand-slogan">NOS ENFOCAMOS EN TUS NECESIDADES</div>
+        </div>
+        <div class="hero-banner-tag">
+            <span>ESPECIAL MES DE LOS PADRES ⌚🔥</span>
+        </div>
+        <h1 class="hero-title">El regalo perfecto para <span class="accent">Papá</span></h1>
+        <p class="hero-subtitle">Descubre la colección más exclusiva de relojes para hombres en este Mes de los Padres.
+            Calidad y elegancia garantizada por PRISMARRD.</p>
+        <div class="hero-badges">
+            <span class="hero-badge">✓ Pago contra entrega disponible</span>
+            <span class="hero-badge">✓ Envío rápido</span>
+            <span class="hero-badge">✓ Caja de regalo incluida</span>
+        </div>
+        <div class="hero-buttons">
+            <a href="#premium" class="btn btn-primary">Ver Catálogo</a>
+            <a href="#combo" class="btn btn-secondary">Armar un Combo 🎁</a>
+        </div>
+    </section>
+
+    <!-- Barra de Confianza -->
+    <div class="trustbar">
+        <div class="trustbar-container">
+            <div class="trustbar-item">
+                <span class="trustbar-icon">🚚</span>
+                <span>Pago contra entrega disponible</span>
+            </div>
+            <div class="trustbar-item">
+                <span class="trustbar-icon">🛡️</span>
+                <span>Calidad y garantía 100%</span>
+            </div>
+            <div class="trustbar-item">
+                <span class="trustbar-icon">📲</span>
+                <span>Pedidos rápidos vía WhatsApp</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección 1: Relojes Premium -->
+    <section class="section fade-in-section" id="premium">
+        <div class="section-header">
+            <span class="section-tag">Colección de Lujo &bull; Mes de los Padres</span>
+            <h2 class="section-title">Relojes Premium</h2>
+            <div class="section-divider"></div>
+            <p class="section-desc">Diseños modernos y sofisticados con acabados de alta calidad para el papá que busca
+                destacar. ¡Ahorra un 15% de descuento!</p>
+        </div>
+        <div class="product-grid" id="premium-grid">
+            <!-- Cargado dinámicamente con JavaScript -->
+        </div>
+    </section>
+
+    <!-- Sección 2: Relojes de Uso Diario -->
+    <section class="section fade-in-section" id="uso-diario"
+        style="background-color: #08080c; border-top: 1px solid rgba(66, 165, 245, 0.15); border-bottom: 1px solid rgba(66, 165, 245, 0.15);">
+        <div class="section-header">
+            <span class="section-tag">Colección Diaria &bull; Mes de los Padres</span>
+            <h2 class="section-title">Relojes de Uso Diario</h2>
+            <div class="section-divider"></div>
+            <p class="section-desc">Estilo, comodidad y durabilidad para acompañarlo en sus actividades diarias. ¡Ahora
+                con RD$350 de descuento!</p>
+        </div>
+        <div class="product-grid" id="daily-grid">
+            <!-- Cargado dinámicamente con JavaScript -->
+        </div>
+    </section>
+
+    <!-- Sección 3: Combo Especial -->
+    <section class="combo-section fade-in-section" id="combo">
+        <div class="section-header">
+            <span class="section-tag">Oferta Especial Mes de los Padres</span>
+            <h2 class="section-title">Arma tu Combo para Papá</h2>
+            <div class="section-divider"></div>
+            <p class="section-desc">Elige un reloj Premium y un reloj de Uso Diario. Obtén ambos con su respectivo
+                descuento y llévate regalos gratis con envío inmediato.</p>
+        </div>
+        <div class="combo-container">
+            <div class="combo-card">
+                <div class="combo-grid">
+                    <div class="combo-field">
+                        <label class="combo-label" for="combo-premium-select">Reloj Premium</label>
+                        <div class="combo-select-wrapper">
+                            <select id="combo-premium-select" class="combo-select" onchange="calculateCombo()">
+                                <option value="">-- Selecciona un Premium --</option>
+                                <option value="1|975">Reloj Premium #1 (RD$975)</option>
+                                <option value="2|975">Reloj Premium #2 (RD$975)</option>
+                                <option value="3|1225">Reloj Premium #3 (RD$1,225)</option>
+                                <option value="4|1225">Reloj Premium #4 (RD$1,225)</option>
+                                <option value="5|1225">Reloj Premium #5 (RD$1,225)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="combo-field">
+                        <label class="combo-label" for="combo-daily-select">Reloj Uso Diario</label>
+                        <div class="combo-select-wrapper">
+                            <select id="combo-daily-select" class="combo-select" onchange="calculateCombo()">
+                                 <option value="">-- Selecciona un Uso Diario --</option>
+                                 <option value="1|725">Reloj Uso Diario #1 (RD$725)</option>
+                                 <option value="2|725">Reloj Uso Diario #2 (RD$725)</option>
+                                 <option value="3|725">Reloj Uso Diario #3 (RD$725)</option>
+                                 <option value="4|725">Reloj Uso Diario #4 (RD$725)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="combo-qty-wrapper">
+                    <div class="product-qty-label">Cantidad de Combos</div>
+                    <div class="product-qty-selector">
+                        <button class="qty-btn" onclick="adjustComboQty(-1)">-</button>
+                        <input type="number" id="combo-qty-input" class="qty-input" value="1" min="1" readonly>
+                        <button class="qty-btn" onclick="adjustComboQty(1)">+</button>
+                    </div>
+                </div>
+
+                <div class="combo-summary">
+                    <div class="combo-summary-text">
+                        <h4>Total del Combo</h4>
+                        <p>Precio calculado de ambos relojes</p>
+                    </div>
+                    <div class="combo-price-block">
+                        <div class="combo-original-price" id="combo-original-text">RD$0</div>
+                        <div class="combo-total-value" id="combo-total-text">RD$0</div>
+                    </div>
+                </div>
+
+                <!-- Ahorro Dinámico del Combo -->
+                <div class="combo-savings-badge" id="combo-savings-wrapper" style="display: none;">
+                    <span>¡Te estás ahorrando un <strong id="combo-savings-text">15%</strong> en este combo! 🔥</span>
+                </div>
+
+                <div class="combo-gifts">
+                    <div class="gift-item">
+                        <span class="gift-icon">🎁</span>
+                        <div class="gift-info">
+                            <h5>Caja de Regalo</h5>
+                            <p>Elegante presentación gratis</p>
+                        </div>
+                    </div>
+                    <div class="gift-item">
+                        <img class="gift-image" src="extras/llavero.png" alt="Llavero de Lujo"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                        <span class="gift-icon" style="display: none;">🔑</span>
+                        <div class="gift-info">
+                            <h5>Llavero GRATIS</h5>
+                            <p>Detalle complementario gratis</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-order" style="width: 100%; padding: 16px; font-size: 15px;"
+                    onclick="sendComboOrder()">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Ordenar Combo vía WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp botón flotante -->
+    <a href="https://wa.me/18295705931?text=Hola%2C%20estoy%20interesado%20en%20ver%20los%20relojes%20del%20cat%C3%A1logo%20de%20PRISMARRD"
+        class="whatsapp-float" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        Escríbenos
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-logo-container">
+            <img src="logo/prismar-logo.png" class="footer-logo-img" alt="PRISMAR Logo"
+                onerror="this.style.display='none';">
+            <div class="footer-brand-slogan">NOS ENFOCAMOS EN TUS NECESIDADES</div>
+        </div>
+        <div class="footer-brand">
+            <span class="blue" style="color: var(--brand-blue-light);">PRISMAR</span><span class="gold"
+                style="color: var(--accent-color);">RD</span>
+        </div>
+        <p class="footer-desc">El regalo ideal para papá en su mes. Distribuidor oficial de relojes masculinos con pago
+            contra entrega 100% seguro en toda la República Dominicana.</p>
+
+        <!-- Enlaces a Redes Sociales -->
+        <div class="footer-socials">
+            <a href="https://instagram.com/prismarrd" class="social-link" target="_blank" rel="noopener">
+                <svg class="social-icon" viewBox="0 0 24 24">
+                    <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                </svg>
+                @prismarrd
+            </a>
+            <a href="https://web.facebook.com/profile.php?id=61590908167997" class="social-link" target="_blank"
+                rel="noopener">
+                <svg class="social-icon" viewBox="0 0 24 24">
+                    <path
+                        d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.324v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                </svg>
+                PRISMARRD
+            </a>
+        </div>
+
+        <a href="https://wa.me/18295705931" class="footer-contact" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            
+        </a>
+        <div class="footer-copyright">
+            © 2026 PRISMAR - Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Lógica de Negocio y Datos -->
+    <script>
+        // Teléfono de WhatsApp de destino
+        const WHATSAPP_PHONE = "18295705931";
+
+        // SVG del Icono de WhatsApp para los botones
+        const WHATSAPP_SVG = `<svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>`;
+
+        // Placeholder para imagen no disponible (SVG Inline Base64)
+        const IMAGE_PLACEHOLDER = `data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect width='100%25' height='100%25' fill='%23121218'/%3E%3Ctext x='50%25' y='50%25' font-size='48' text-anchor='middle' dy='.35em' fill='%23C9A84C'%3E⌚%3C/text%3E%3C/svg%3E`;
+
+        // Datos del Catálogo
+        const DISCOUNT_PERCENT = 15;
+
+                    const PREMIUM_PRODUCTS = [
+                { id: 1, price: 975 },
+                { id: 2, price: 975 },
+                { id: 3, price: 1225 },
+                { id: 4, price: 1225 },
+                { id: 5, price: 1225 }
+            ];
+
+        const DAILY_PRODUCTS = [
+            { id: 1, price: 850 },
+            { id: 2, price: 850 },
+            { id: 3, price: 850 },
+            { id: 4, price: 850 }
+        ];
+
+        const PREMIUM_FEATURES = [
+            "Diseño moderno y sofisticado",
+            "Acabados de alta calidad",
+            "Calendario de día y fecha incorporado",
+            "Ideal para uso diario o para ocasiones especiales",
+            "Combina perfectamente con outfits casuales y formales"
+        ];
+
+        const DAILY_FEATURES = [
+            "Diseño cómodo y versátil",
+            "Material resistente de alta duración",
+            "Correa ajustable al pulso",
+            "Estilo casual y elegante",
+            "Ideal para el uso diario y actividades al aire libre"
+        ];
+
+        // Utilidad para formatear precios en moneda local
+        function formatPrice(val) {
+            return "RD$" + val.toLocaleString('en-US');
+        }
+
+        // Renderizador de tarjetas
+        function createProductCard(product, category, features, folder) {
+            const productId = `${category}-${product.id}`;
+            const categoryLabel = category === "premium" ? "Premium" : "Uso Diario";
+
+            const featuresHtml = features.map(feat => `<li>${feat}</li>`).join("");
+            let extension = "jpg";
+            if (category === "premium" && (product.id === 1 || product.id === 2 || product.id === 5)) {
+                extension = "avif";
+            } else if (category === "daily" && (product.id === 3 || product.id === 4)) {
+                extension = "avif";
+            }
+            const imgPath = `${folder}/${product.id}.${extension}`;
+
+            // Los precios en el array ya son los precios FINALES (con descuento aplicado)
+            // Calculamos el precio original invirtiendo el 15%
+            let discountedPrice = product.price;
+            if (category === "daily") { discountedPrice = 725; }
+            const originalPrice = Math.round(discountedPrice / (1 - DISCOUNT_PERCENT / 100));
+
+            return `
+                <div class="product-card" id="card-${productId}">
+                    <span class="product-badge">Reloj ${categoryLabel} #${product.id}</span>
+                    <span class="product-discount-tag">-${DISCOUNT_PERCENT}%</span>
+                    <div class="product-image-container">
+                        <img class="product-image" src="${imgPath}" alt="Reloj ${categoryLabel} #${product.id}" loading="lazy" onerror="this.onerror=null; this.src=IMAGE_PLACEHOLDER;">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-price-container">
+                            <span class="product-price-original">${formatPrice(originalPrice)}</span>
+                            <span class="product-price">${formatPrice(discountedPrice)}</span>
+                        </div>
+                        <div class="product-shipping">Pago Contra Entrega</div>
+                        <span class="product-savings">Ahorra 15% por el mes de los padres</span>
+                        
+                        <div class="product-qty-label">Cantidad</div>
+                        <div class="product-qty-selector">
+                            <button class="qty-btn" onclick="changeQty('${productId}', -1)">-</button>
+                            <input type="number" id="qty-${productId}" class="qty-input" value="1" min="1" max="99" readonly>
+                            <button class="qty-btn" onclick="changeQty('${productId}', 1)">+</button>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <button class="btn-features" id="feat-btn-${productId}" onclick="toggleFeatures('${productId}')">
+                                <span>Ver características</span>
+                                <span class="arrow">▼</span>
+                            </button>
+                            <div class="features-panel" id="feat-panel-${productId}">
+                                <div class="features-panel-content">
+                                    <ul class="features-list">
+                                        ${featuresHtml}
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="btn-order" onclick="orderProduct('${category}', ${product.id}, ${discountedPrice}, '${categoryLabel}')">
+                                ${WHATSAPP_SVG}
+                                Ordenar ahora
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Cargar Catálogos
+        function renderCatalogs() {
+            const premiumGrid = document.getElementById("premium-grid");
+            const dailyGrid = document.getElementById("daily-grid");
+
+            premiumGrid.innerHTML = PREMIUM_PRODUCTS.map(prod =>
+                createProductCard(prod, "premium", PREMIUM_FEATURES, "premium")
+            ).join("");
+
+            dailyGrid.innerHTML = DAILY_PRODUCTS.map(prod =>
+                createProductCard(prod, "daily", DAILY_FEATURES, "uso-diario")
+            ).join("");
+        }
+
+        // Manejar Desplegable de Características
+        function toggleFeatures(productId) {
+            const panel = document.getElementById(`feat-panel-${productId}`);
+            const btn = document.getElementById(`feat-btn-${productId}`);
+
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                btn.classList.remove("active");
+                btn.querySelector("span").textContent = "Ver características";
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                btn.classList.add("active");
+                btn.querySelector("span").textContent = "Ocultar características";
+            }
+        }
+
+        // Modificar Cantidades
+        function changeQty(productId, amount) {
+            const qtyInput = document.getElementById(`qty-${productId}`);
+            let currentVal = parseInt(qtyInput.value);
+            currentVal = isNaN(currentVal) ? 1 : currentVal;
+            qtyInput.value = Math.max(1, Math.min(99, currentVal + amount));
+        }
+
+        // Cantidad de Combos
+        function adjustComboQty(amount) {
+            const comboQtyInput = document.getElementById("combo-qty-input");
+            let currentVal = parseInt(comboQtyInput.value);
+            currentVal = isNaN(currentVal) ? 1 : currentVal;
+            comboQtyInput.value = Math.max(1, Math.min(99, currentVal + amount));
+            calculateCombo();
+        }
+
+        // Calcular Combo Dinámicamente
+        function calculateCombo() {
+            const premiumSelect = document.getElementById("combo-premium-select");
+            const dailySelect = document.getElementById("combo-daily-select");
+            const comboQtyInput = document.getElementById("combo-qty-input");
+            const totalText = document.getElementById("combo-total-text");
+            const originalText = document.getElementById("combo-original-text");
+            const savingsWrapper = document.getElementById("combo-savings-wrapper");
+            const savingsText = document.getElementById("combo-savings-text");
+
+            const premiumVal = premiumSelect.value;
+            const dailyVal = dailySelect.value;
+            const qty = parseInt(comboQtyInput.value) || 1;
+
+            if (premiumVal && dailyVal) {
+                // Los precios seleccionados ya son los precios con descuento aplicado
+                const premiumPrice = parseInt(premiumVal.split("|")[1]);
+                const dailyPrice = parseInt(dailyVal.split("|")[1]);
+
+                const total = (premiumPrice + dailyPrice) * qty;
+                // Premium price is already final (no discount). Daily price still needs original calculation.
+                const originalPremium = premiumPrice;
+                const originalDaily = Math.round(dailyPrice / (1 - DISCOUNT_PERCENT / 100));
+                const originalTotal = (originalPremium + originalDaily) * qty;
+                const savings = originalTotal - total;
+
+                totalText.textContent = formatPrice(total);
+                originalText.textContent = formatPrice(originalTotal);
+                originalText.style.display = "block";
+                savingsText.textContent = DISCOUNT_PERCENT + "%";
+                savingsWrapper.style.display = "block";
+            } else {
+                totalText.textContent = "RD$0";
+                originalText.textContent = "";
+                originalText.style.display = "none";
+                savingsWrapper.style.display = "none";
+            }
+        }
+
+        // Enviar pedido de producto individual a WhatsApp
+        function orderProduct(category, id, price, label) {
+            const qty = parseInt(document.getElementById(`qty-${category}-${id}`).value);
+            const total = price * qty;
+            const message = `Hola PRISMARRD, me gustaría ordenar el Reloj ${label} #${id} (Cantidad: ${qty}).\nTotal: ${formatPrice(total)}\n¡Aprovechando la oferta especial del Mes de los Padres con ${DISCOUNT_PERCENT}% de descuento! Pago contra entrega.`;
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/${WHATSAPP_PHONE}?text=${encodedMessage}`, "_blank");
+        }
+
+        // Enviar pedido de combo a WhatsApp
+        function sendComboOrder() {
+            const premiumSelect = document.getElementById("combo-premium-select");
+            const dailySelect = document.getElementById("combo-daily-select");
+            const comboQtyInput = document.getElementById("combo-qty-input");
+
+            const premiumVal = premiumSelect.value;
+            const dailyVal = dailySelect.value;
+            const qty = comboQtyInput.value;
+
+            if (!premiumVal || !dailyVal) {
+                alert("Por favor, selecciona un reloj Premium y un reloj de Uso Diario para armar tu combo.");
+                return;
+            }
+
+            const premiumId = premiumVal.split("|")[0];
+            const dailyId = dailyVal.split("|")[0];
+            const premiumPrice = parseInt(premiumVal.split("|")[1]);
+            const dailyPrice = parseInt(dailyVal.split("|")[1]);
+
+            // Los precios ya son finales (con descuento aplicado)
+            const total = (premiumPrice + dailyPrice) * parseInt(qty);
+
+            const message = `Hola PRISMARRD, quiero ordenar un Combo Especial del Mes de los Padres:\n` +
+                `- 1x Reloj Premium #${premiumId}\n` +
+                `- 1x Reloj Uso Diario #${dailyId}\n` +
+                `Cantidad de combos: ${qty}\n` +
+                `Regalos incluidos: Caja de Regalo + Llavero de Lujo (Gratis)\n` +
+                `Descuento aplicado: ${DISCOUNT_PERCENT}%\n` +
+                `Total a pagar: ${formatPrice(total)}\n` +
+                `Pago contra entrega disponible.`;
+
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/${WHATSAPP_PHONE}?text=${encodedMessage}`, "_blank");
+        }
+
+        // Observador de Scroll para Efectos Fade-In
+        function setupScrollAnimations() {
+            const sections = document.querySelectorAll(".fade-in-section");
+            const observerOptions = {
+                root: null,
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add("visible");
+                        }, index * 100);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(sec => observer.observe(sec));
+        }
+
+        // Inicialización al cargar la página
+        document.addEventListener("DOMContentLoaded", () => {
+            renderCatalogs();
+            setTimeout(setupScrollAnimations, 100);
+        });
+    </script>
+</body>
+
+</html>
